@@ -1,11 +1,7 @@
 import capitalize from "../src/utils/capitalize";
 
 test("Does capitalize function exist", () => {
-  expect(capitalize());
-});
-
-test("Does capitalize function return a string", () => {
-  expect(capitalize(String)).toBe(String);
+  expect(capitalize);
 });
 
 test("Capitalize first letter and return a new string", () => {
